@@ -1,0 +1,88 @@
+body {
+    font-family: 'Fira Code', monospace;
+    background: #1e1e2f;
+    color: #f5f5f5;
+    margin: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    border-bottom: 2px solid #4CAF50;
+}
+
+header nav a {
+    color: #4CAF50;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+.skills {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    background: #292945;
+    border-left: 4px solid #4CAF50;
+}
+
+.projects {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.project {
+    background: #292945;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #4CAF50;
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    border: 1px solid #333;
+    background: #292945;
+    color: #fff;
+    font-family: 'Fira Code', monospace;
+}
+
+form button {
+    background: #4CAF50;
+    cursor: pointer;
+    border: none;
+}
+
+form button:hover {
+    background: #439b48;
+}
+
+footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    margin-top: 2rem;
+}
